@@ -1,0 +1,54 @@
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    height: 33px;
+    width: 268px;
+    
+
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    list-style:none;
+}
+
+.navlinks li a {
+    padding-left: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.about {
+    color: #00B39B;
+    text-decoration: none;
+}
+
+.career {
+    text-decoration: underline;
+    color: #ABABAB;
+
+}
+
+.career:hover {
+    text-decoration: none;
+    color: #00B39B;
+}
+
+.dep {
+    text-decoration: none;
+    color: #ABABAB;
+}
+
+.dep:hover{
+    cursor: text;
+    color: #00B39B;
+}
