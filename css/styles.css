@@ -52,3 +52,19 @@
     cursor: text;
     color: #00B39B;
 }
+
+/********* main-section styles **********/
+
+main {
+    margin-top: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+main h1 {
+    color: #00B39B;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
