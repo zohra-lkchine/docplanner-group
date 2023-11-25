@@ -68,3 +68,16 @@ main h1 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
 }
+
+.p-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    padding: 15px 90px;
+}
+
+.p-container p {
+    font-family: Helvetica, sans-serif;
+    color: #747474;
+}
