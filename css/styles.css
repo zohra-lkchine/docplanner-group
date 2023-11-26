@@ -80,6 +80,7 @@ main h1 {
 .p-container p {
     font-family: Helvetica, sans-serif;
     color: #747474;
+    line-height: 1.75;
 }
 
 /************ service section styles ************/
@@ -100,11 +101,56 @@ main h1 {
     display: flex;
     align-items: center;
     gap: 15px;
+
 }
 
-.cart-container div {
+.cart-container .patients, .cart-container .doctors, .cart-container .clinics  {
     height: 345px;
     border: 1px solid #fff;
     border-radius: 10px;
     width: 33.33%;
+    color: #fff;
+    font-family: 'Work sans', sans-serif;
+    padding: 2em 2em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.cart-container h2 {
+    font-weight: 400;
+    font-size: 1.625em;
+}
+
+.cart-container p {
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 300;
+}
+.cart-container i {
+    font-size: 1.25em;
+}
+
+.cart-container .select-div {
+    margin-bottom: 45px;
+}
+
+.select-div select {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19.2px;
+    background: transparent;
+    border: none;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.select-div option {
+    color: #000;
+    font-size: 1rem;
+}
+
+.last-1 select:first-of-type {
+    margin-bottom: 1.25em;
+
 }
