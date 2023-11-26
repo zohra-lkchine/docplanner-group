@@ -81,3 +81,30 @@ main h1 {
     font-family: Helvetica, sans-serif;
     color: #747474;
 }
+
+/************ service section styles ************/
+
+.patients {
+    background-color: #00ccb1;
+}
+
+.doctors{
+    background-color: #3d83df;
+}
+.clinics{
+    background-color: #1b2734;
+}
+
+.cart-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cart-container div {
+    height: 345px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 33.33%;
+}
