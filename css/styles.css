@@ -154,3 +154,45 @@ main h1 {
     margin-bottom: 1.25em;
 
 }
+
+.brands{
+    margin-top: 49px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+
+.title{
+color: #00B39B;
+font-size: 1.625em;
+font-family: 'Work sans', sans-serif;
+font-weight: 300;
+width: 33%;
+margin: 0.25em 0 0.35em;
+padding-right: 1em;
+}
+
+/***********image-sections*************/
+
+.images{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 35px;
+   width: 68%;
+   margin: 0.25em 0 0.35em;
+  
+}
+
+.images img{
+    height: 20px;
+    filter: grayscale(1);
+}
+
+.images img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
